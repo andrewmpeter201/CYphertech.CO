@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | Cypher Tech</title>
+    <meta name="description" content="View our portfolio of successful projects including government services, data dashboards, cyber solutions, and graphic designs.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Cypher<span class="logo-highlight">Tech</span></span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item active"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html#quote" class="btn btn-primary btn-small">Get a Quote</a></li>
+                </ul>
+                
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Portfolio Hero -->
+    <section class="page-hero portfolio-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-hero-title">Our Portfolio</h1>
+                <p class="page-hero-subtitle">Proof of our expertise through successful projects and satisfied clients</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter section-padding">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="cyber">Cyber Services</button>
+                <button class="filter-btn" data-filter="government">Government Services</button>
+                <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+                <button class="filter-btn" data-filter="design">Graphic Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid-section section-padding bg-light">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1 - Government Portal -->
+                <div class="portfolio-item" data-category="government">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Government Service Portal">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">eCitizen Services Portal</h3>
+                                <p class="portfolio-description">User-friendly interface for streamlined citizen services including business registration and license applications.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Government</span>
+                                    <span class="tag">Web Development</span>
+                                    <span class="tag">UI/UX</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - Data Dashboard -->
+                <div class="portfolio-item" data-category="analytics">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Analytics Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Business Intelligence Dashboard</h3>
+                                <p class="portfolio-description">Interactive data visualization dashboard providing real-time business insights and performance metrics.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Data Analytics</span>
+                                    <span class="tag">Dashboard</span>
+                                    <span class="tag">BI</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - Security System -->
+                <div class="portfolio-item" data-category="cyber">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Security Monitoring System">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Cyber Security Monitoring System</h3>
+                                <p class="portfolio-description">Real-time threat detection and monitoring dashboard with automated alert system.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Cyber Security</span>
+                                    <span class="tag">Monitoring</span>
+                                    <span class="tag">Real-time</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - KUCCPS Portal -->
+                <div class="portfolio-item" data-category="government">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="KUCCPS Application Portal">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">KUCCPS Placement Portal</h3>
+                                <p class="portfolio-description">Streamlined university placement application system for students with automated processing.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Government</span>
+                                    <span class="tag">Education</span>
+                                    <span class="tag">Portal</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 - Data Visualization -->
+                <div class="portfolio-item" data-category="analytics">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Data Visualization">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Financial Data Visualization</h3>
+                                <p class="portfolio-description">Interactive financial reports and visualization for corporate clients.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Data Analytics</span>
+                                    <span class="tag">Finance</span>
+                                    <span class="tag">Visualization</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 - Brand Identity -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Brand Identity Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Corporate Brand Identity</h3>
+                                <p class="portfolio-description">Complete brand identity package including logo, business cards, and brand guidelines.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Graphic Design</span>
+                                    <span class="tag">Branding</span>
+                                    <span class="tag">Logo</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 7 - HELB System -->
+                <div class="portfolio-item" data-category="government">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="HELB Application System">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">HELB Loan Application System</h3>
+                                <p class="portfolio-description">Secure loan application portal with document verification and status tracking.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Government</span>
+                                    <span class="tag">Finance</span>
+                                    <span class="tag">Secure</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 8 - Security Training -->
+                <div class="portfolio-item" data-category="cyber">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cyber Security Training">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Cyber Security Training Portal</h3>
+                                <p class="portfolio-description">Interactive training platform for employees on cyber security best practices.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Cyber Security</span>
+                                    <span class="tag">Training</span>
+                                    <span class="tag">E-Learning</span>
+                                </div>
+                                <a href="#" class="btn btn-secondary btn-small">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What our clients say about our work</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Cypher Tech helped us navigate the complex eCitizen registration process. Their expertise saved us weeks of work."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">John Mwangi</h4>
+                            <p class="author-title">Small Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"The data analytics dashboard they created transformed how we make business decisions. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Ochieng</h4>
+                            <p class="author-title">Operations Manager</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Professional, timely, and secure handling of our HELB applications. They made the process stress-free."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">David Kariuki</h4>
+                            <p class="author-title">University Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio CTA -->
+    <section class="portfolio-cta section-padding">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-card-content">
+                    <h2 class="cta-card-title">Have a Project in Mind?</h2>
+                    <p class="cta-card-description">Let's discuss how we can bring your digital vision to life with our expertise.</p>
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Your Project</a>
+                </div>
+                <div class="cta-card-image">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo">Cypher<span>Tech</span></a>
+                    <p class="footer-description">Providing secure, reliable digital solutions for businesses, professionals, and citizens.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#cyber">Cyber Services</a></li>
+                        <li><a href="services.html#government">Government Services</a></li>
+                        <li><a href="services.html#analytics">Data Analytics</a></li>
+                        <li><a href="services.html#design">Graphic Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:0791560500">0791 560 500</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:ANDREWPMWAURA@047">ANDREWPMWAURA@047</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; <span class="current-year">2023</span> Cypher Tech. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254791560500" class="float-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/portfolio-filter.js"></script>
+</body>
+</html>
